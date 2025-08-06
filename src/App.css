@@ -1,0 +1,206 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+/* Icon Styles */
+.icon {
+  margin-bottom: 30px;
+}
+
+.icon-content {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stacked-blocks {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.block {
+  position: absolute;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+.block-1 {
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 10px;
+}
+
+.block-2 {
+  width: 24px;
+  height: 24px;
+  top: 8px;
+  left: 8px;
+}
+
+.block-3 {
+  width: 28px;
+  height: 28px;
+  top: 16px;
+  left: 6px;
+}
+
+/* Main Heading Styles */
+.main-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.proje {
+  color: #667eea;
+}
+
+.yapim {
+  background: linear-gradient(135deg, #667eea 0%, #f093fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.asamasinda {
+  color: #333;
+}
+
+/* Description Styles */
+.description {
+  color: #666;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Progress Bar Styles */
+.progress-container {
+  margin-bottom: 40px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress-fill {
+  width: 75%;
+  height: 100%;
+  background: linear-gradient(90deg, #667eea 0%, #f093fb 100%);
+  border-radius: 4px;
+}
+
+.progress-text {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* Contact Section Styles */
+.contact-section {
+  margin-top: 30px;
+}
+
+.contact-title {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contact-details {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.contact-details p {
+  margin: 5px 0;
+}
+
+/* Copyright Styles */
+.copyright {
+  color: #999;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card {
+    padding: 30px 20px;
+  }
+  
+  .main-heading {
+    font-size: 2rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+  }
+  
+  .icon-content {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .stacked-blocks {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .block-1 {
+    width: 15px;
+    height: 15px;
+    left: 7.5px;
+  }
+  
+  .block-2 {
+    width: 18px;
+    height: 18px;
+    top: 6px;
+    left: 6px;
+  }
+  
+  .block-3 {
+    width: 21px;
+    height: 21px;
+    top: 12px;
+    left: 4.5px;
+  }
+}
