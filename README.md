@@ -1,5 +1,7 @@
 # STMTK - Proje Yapım Aşamasında
 
+🌐 **Live URL:** https://ztaak.com
+
 Modern React.js projesi ile Node.js backend sunucusu.
 
 ## 🚀 Özellikler
@@ -33,6 +35,20 @@ npm run build
 - `GET /` - React uygulaması
 
 ## 🚀 Deployment
+
+### Production Deployment
+
+```bash
+# Production build ve server başlat
+npm run deploy
+
+# Sadece production server
+npm run prod
+
+# PM2 ile production deployment
+npm install -g pm2
+pm2 start ecosystem.config.js --env production
+```
 
 ### Railway (Önerilen)
 
